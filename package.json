@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --inspect -e ts,js --watch src --exec \"ts-node --files ./src/index.ts\"",
-    "start": "ts-node src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node --transpile-only src/index.ts"
   },
   "keywords": [],
   "author": "",
