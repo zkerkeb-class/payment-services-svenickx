@@ -70,7 +70,6 @@ export default class PaymentWebhook {
           case "billing_portal.configuration.created":
           case "invoiceitem.created":
           case "customer.created":
-          case "customer.subscription.updated":
             console.info("nothing happening", event.type);
             break;
           case "customer.subscription.updated":
